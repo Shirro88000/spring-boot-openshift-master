@@ -9,7 +9,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String index() {
-        return "Greetings from Spring Boot!"; //This string is used in JUnit HelloControllerTest.java
+        return "Greetings from Spring Boot1231321!"; //This string is used in JUnit HelloControllerTest.java
     }
 
     @RequestMapping("/hello")
